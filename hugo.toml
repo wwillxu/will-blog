@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://will-blog-nu.vercel.app/'
 languageCode = 'en-us'
 title = 'Will Blog'
 theme = "paper"
