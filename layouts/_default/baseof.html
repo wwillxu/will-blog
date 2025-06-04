@@ -37,8 +37,13 @@
   lang="{{ site.LanguageCode }}"
 >
   {{ partial "head.html" . }}
+  
   <!-- Vercel Web Analytics -->
-  <script defer src="https://vercel.com/analytics/script.js"></script>
+  <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
   <body class="text-black duration-200 ease-out dark:text-white">
     {{ partial "header.html" . }}
 
