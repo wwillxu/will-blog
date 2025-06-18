@@ -45,10 +45,10 @@ theme = "paper"
 
   # giscus
 [params.giscus]
-  # repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
-  # repoId = 'YOUR_GISCUS_REPO_ID'
-  # category = 'YOUR__GISCUS_CATEGORY'
-  # categoryId = 'YOUR_GISCUS_CATEGORY_ID'
-  # mapping = 'pathname'
-  # theme = 'light'
-  # lang = 'zh-CN'
+  repo = 'wwillxu/will-blog'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOJG8yeQ'
+  category = 'Announcements'
+  categoryId = 'DIC_kwDOJG8yec4Crpc_'
+  mapping = 'pathname'
+  theme = 'preferred_color_scheme'
+  lang = 'zh-CN'
